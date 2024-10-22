@@ -6,7 +6,3 @@
 .my-minwidth{
     min-width: 110px;
 }
-
-table thead {
-    border-top: none;
-}
