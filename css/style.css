@@ -2,3 +2,11 @@
     width: 60px;
     aspect-ratio: 1 / 1;
 }
+
+.my-minwidth{
+    min-width: 110px;
+}
+
+table thead {
+    border-top: none;
+}
