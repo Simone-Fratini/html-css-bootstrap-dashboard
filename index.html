@@ -12,7 +12,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="d-flex container-fluid justify-content-center">
             <a class="navbar-brand" href="#">
                 <img class="img-fluid my-logo" src="img/duck.png" alt="logo">
             </a>
@@ -34,15 +34,19 @@
                         <a class="nav-link" href="#">Help</a>
                     </li>
                 </ul>
-            </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                </div>
         </div>
     </nav>
 
-    <div class="container my-5 row">
-        <div class="col-sm-12 col-md-6">
+    <div class="container my-5">
+        <div class="col-sm-12 col-md-12">
             <div class="d-flex justify-content-between align-items-center">
                 <h1 class="fs-3">Catalogo Libri</h1>
-                <button type="button" class="btn btn-primary h-100">Aggiungi Libro</button>
+                <a href="newbook.html" class="btn btn-primary h-100">Aggiungi Libro</a>
             </div>
     
             <table class="table table-striped table-hover">
@@ -191,9 +195,7 @@
             </table>
 
         </div>
-        <div class="col-sm-12 col-md-6">
-            <p>ciaoaoaoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
-        </div>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
